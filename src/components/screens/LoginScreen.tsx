@@ -1,7 +1,7 @@
 import React from 'react';
-import Login from '../components/Auth/Login';
+import Login from '../auth/Login';
 
-const LoginScreen = () => {
+const LoginScreen: React.FC = () => {
   return <Login />;
 };
 

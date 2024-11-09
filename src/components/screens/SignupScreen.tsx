@@ -1,7 +1,7 @@
 import React from 'react';
-import Signup from '../components/Auth/Signup';
+import Signup from '../auth/Signup';
 
-const SignupScreen = () => {
+const SignupScreen: React.FC = () => {
   return <Signup />;
 };
 
